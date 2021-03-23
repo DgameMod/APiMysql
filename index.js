@@ -21,7 +21,7 @@ function realizarPeticion(){
             res.json()
             .then(resJSON =>{
                 var data =resJSON['dataseries']
-                for(var i =0; i < data.length; i++){
+                for(var i =0; i < data; i++){
                     con.innerHTML += data[i]
                     
                 }
